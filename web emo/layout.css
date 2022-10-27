@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 50vw;
+}
+header{
+    background-color: antiquewhite;
+   flex-grow: 1;
+}
+nav{
+    background-color: blue;
+    flex-grow: 4;
+}

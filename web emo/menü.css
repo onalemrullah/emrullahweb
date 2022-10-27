@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+  
+    padding-top: 30px;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    height: 40vw;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 135px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width: 35px;
+    background-image: url("logo.svg");
+    background-repeat: no-repeat;
+}
+.üst{
+    padding-top: 10px;
+}
+.üçlü{
+    padding-left: 63vw;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-family: oswald;
+}
+.logok
+{
+    padding-left: 10px;
+    padding-top: 10px;
+   
+}
+.country{
+    padding-left: 3px;
+    padding-top: 15px;
+}
+.resim{
+    background-color: rgb(255, 255, 255);
+    height: 40vw;
+    width: 80vw;
+    background-image: url("hart.webp");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
